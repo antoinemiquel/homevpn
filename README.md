@@ -1,9 +1,11 @@
 # homevpn
+
+-------- 
  
 ## overview
 
-This project use docker to create a vpn server with openvpn.
-(creating pki, server and optinnaly optionally clients)
+This project use docker to create a vpn server with openvpn
+(creating pki, server and optinnaly optionally clients).
 
 -------- 
 ## quick start
@@ -25,7 +27,7 @@ This project use docker to create a vpn server with openvpn.
         * remote 192.168.0.10 1194
         * remote myhome.johndoe.com 1194
 
-	* execute `./gen_client.bash _nom_client_ (client keys will be created in **keys/client/_nom_client_** directory and distributed in **client/_nom_client_** dir)
+	* execute `./gen_client.bash _nom_client_` (client keys will be created in **keys/client/_nom_client_** directory and distributed in **client/_nom_client_** dir)
 
 * start vpn-client [ optionally ]
     * execute `./up_client.bash _nom_client_`
