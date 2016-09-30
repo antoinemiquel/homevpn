@@ -27,10 +27,10 @@ This project use docker to create a vpn server with openvpn
         * remote 192.168.0.10 1194
         * remote myhome.johndoe.com 1194
 
-	* execute `./gen_client.bash _nom_client_` (client keys will be created in **keys/client/_nom_client_** directory and distributed in **client/_nom_client_** dir)
+	* execute `./gen_client.bash NOM_CLIENT` (client keys will be created in **keys/client/_NOM_CLIENT_** directory and distributed in **client/_NOM_CLIENT_** dir)
 
 * start vpn-client [ optionally ]
-    * execute `./up_client.bash _nom_client_`
+    * execute `./up_client.bash NOM_CLIENT`
 
 --------
 ## notes
